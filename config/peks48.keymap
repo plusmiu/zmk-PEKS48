@@ -52,10 +52,10 @@
 
         layer_1 {
             bindings = <
-&kp PERCENT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4     &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9    &kp NUMBER_0    &trans
-&trans       &trans        &trans        &kp JP_LBRACKET  &kp JP_RBRACKET  &trans          &trans        &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6    &kp JP_COLON    &kp JP_UNDERSCORE
-&trans       &trans        &trans        &kp JP_LPAREN    &kp JP_RPAREN    &trans          &trans        &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3    &kp UP_ARROW    &trans
-&trans       &trans        &trans        &trans           &trans           &trans          &trans        &kp NUMBER_0  &kp JP_DQUOTE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT
+&kp PERCENT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp NUMBER_0    &trans
+&trans       &kp A         &kp S         &kp D         &kp F         &kp G           &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &kp UNDERSCORE  &kp ENTER
+&trans       &trans        &trans        &kp C         &kp V         &kp B           &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp UP_ARROW    &trans
+&trans       &trans        &trans        &trans        &trans        &trans          &trans        &kp NUMBER_0  &kp RCTRL     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT
             >;
         };
 
@@ -101,6 +101,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
