@@ -1,4 +1,4 @@
-dts/ {
+/ {
     aliases {
         led-red   = &led_red;
         led-green = &led_green;
