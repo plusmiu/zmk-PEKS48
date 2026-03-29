@@ -43,7 +43,7 @@
 
         default_layer {
             bindings = <
-&kp EXCLAMATION  &kp Q      &kp W     &kp E      &kp R         &kp T        &kp Y      &kp U          &kp I      &kp O                 &kp P              &kp DELETE
+&kp EXCLAMATION  &kp Q      &kp W     &kp E      &kp R         &kp T        &kp Y      &kp U          &kp I      &kp O                 &kp P              &kp BACKSPACE
 &kp AT_SIGN      &kp A      &kp S     &kp D      &kp F         &kp G        &kp H      &kp J          &kp K      &kp L                 &kp UNDERSCORE     &kp ENTER
 &kp LSHIFT       &kp Z      &kp X     &kp C      &kp V         &kp B        &kp N      &kp M          &kp COMMA  &kp DOT               &kp MINUS          &kp RIGHT_SHIFT
 &lt 1 TILDE      &lt 2 ESC  &kp LWIN  &kp LCTRL  &kp LEFT_ALT  &kp SPACE    &kp SPACE  &kp RIGHT_ALT  &kp RCTRL  &kp LEFT_PARENTHESIS  &kp LS(RS(SLASH))  &kp RIGHT_PARENTHESIS
@@ -61,10 +61,10 @@
 
         layer_2 {
             bindings = <
-&kp AMPERSAND   &kp EXCLAMATION  &kp QUESTION  &kp POUND     &kp DOLLAR    &kp PERCENT     &kp K_MUTE                &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp ASTERISK  &kp LESS_THAN     &kp GREATER_THAN
-&bt BT_NXT      &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp AT_SIGN               &kp MINUS          &kp PLUS           &kp EQUAL     &kp LEFT_BRACE    &kp RIGHT_BRACE
-&bt BT_CLR_ALL  &trans           &trans        &trans        &trans        &trans          &kp C_BRIGHTNESS_MINIMUM  &trans             &trans             &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans          &trans           &trans        &trans        &trans        &trans          &trans                    &trans             &kp DOUBLE_QUOTES  &kp SQT       &kp COLON         &kp SEMICOLON
+&kp AMPERSAND   &kp EXCLAMATION  &kp QUESTION  &kp POUND     &kp DOLLAR    &kp PERCENT     &kp K_MUTE                &kp C_VOLUME_DOWN  &kp C_VOLUME_UP       &kp ASTERISK           &kp LESS_THAN     &kp GREATER_THAN
+&bt BT_NXT      &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp AT_SIGN               &kp MINUS          &kp PLUS              &kp EQUAL              &kp LEFT_BRACE    &kp RIGHT_BRACE
+&bt BT_CLR_ALL  &trans           &trans        &trans        &trans        &trans          &kp C_BRIGHTNESS_MINIMUM  &trans             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans          &trans           &trans        &trans        &trans        &trans          &trans                    &trans             &kp DOUBLE_QUOTES     &kp SQT                &kp COLON         &kp SEMICOLON
             >;
         };
 
